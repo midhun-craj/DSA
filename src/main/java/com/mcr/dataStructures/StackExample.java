@@ -6,6 +6,8 @@ public class StackExample {
     public static void main(String[] args) {
 
         // LIFO Data Structure.
+        // used in backtracking algorithms.
+        // used in undo redo operations.
         Stack<String> stack = new Stack<String>();
 
 //        System.out.println(stack.empty());
