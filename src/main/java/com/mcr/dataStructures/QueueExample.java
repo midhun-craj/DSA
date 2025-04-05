@@ -20,7 +20,7 @@ public class QueueExample {
 //        queue.poll();
 //        queue.poll();
 
-//        System.out.println(queue.peek());
+//        System.out.println(queue.peek()); // can view the element in the head position without removing it from the queue.
         System.out.println(queue);
 //
 //        System.out.println(queue.isEmpty());
