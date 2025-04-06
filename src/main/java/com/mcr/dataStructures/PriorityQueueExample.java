@@ -34,7 +34,7 @@ public class PriorityQueueExample {
 //        }
 
         Queue<String> queue = new PriorityQueue<>();
-//        Queue<String> queue = new PriorityQueue<>(Collections.reverseOrder());
+//        Queue<String> queue = new PriorityQueue<>(Collect ions.reverseOrder());
         queue.offer("B");
         queue.offer("F");
         queue.offer("D");
