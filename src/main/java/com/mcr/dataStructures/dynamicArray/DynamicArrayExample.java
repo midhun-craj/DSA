@@ -60,9 +60,9 @@ public class DynamicArrayExample {
                 dynamicArray.delete("A");
                 dynamicArray.delete("B");
                 dynamicArray.delete("C");
-//                dynamicArray.insert(1, "X");
-//                dynamicArray.delete("A");
-//                System.out.println(dynamicArray.search("B"));
+                dynamicArray.insert(1, "X");
+                dynamicArray.delete("A");
+                System.out.println(dynamicArray.search("B"));
                 System.out.println(dynamicArray);
                 System.out.println("Empty: " + dynamicArray.isEmpty());
                 System.out.println("Size: " + dynamicArray.getSize());
