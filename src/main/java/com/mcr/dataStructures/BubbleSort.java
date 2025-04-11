@@ -4,7 +4,8 @@ public class BubbleSort {
 
     /// Compare pairs of adjacent elements, and swap the elements if they are not in order.
     ///
-    /// Quadratic time O(n^2)
+    /// run-time complexity -> Quadratic time O(n^2)
+    /// space complexity -> O(1) constant space
     /// small data-set = ok-ish
     /// large data-set = Nop
 

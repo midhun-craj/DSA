@@ -5,7 +5,8 @@ public class InsertionSort {
     /// After comparing elements to the left.
     /// Shift elements to the right to make room to insert a value.
     ///
-    /// Quadratic time O(n^2)
+    /// run-time complexity -> Quadratic time O(n^2)
+    /// space complexity -> O(1) constant space
     /// small dataset = decent
     /// large dataset = bad
     ///

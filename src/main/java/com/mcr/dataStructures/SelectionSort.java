@@ -5,7 +5,8 @@ public class SelectionSort {
     /// Search through the array and keep track of the minimum value during each iteration.
     /// And at the end of each iteration we swap the variables.
     ///
-    /// Quadratic time O(n^2)
+    /// run-time complexity -> Quadratic time O(n^2)
+    /// space complexity -> O(1) constant time
     /// small datasets = okay
     /// large datasets = bad
 

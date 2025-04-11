@@ -5,8 +5,8 @@ public class MergeSort {
     /// Divide and Conquer Methodology
     /// Recursively divide an array into two, sort and combine.
     ///
-    /// run time complexity -> O(n log n) quasilinear time
-    /// space complexity -> O(n)
+    /// run-time complexity -> O(n log n) quasilinear time
+    /// space complexity -> O(n) linear space
 
     public static void mergeSort(int[] array) {
 
