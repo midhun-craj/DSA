@@ -32,8 +32,8 @@ public class Graphs {
     ///    linked list contains the address of a node.
     ///    If there is an adjacency between two node, we will add the adjacent node to the linked list of which ever
     ///    node it is adjacent to, so that node contains the address of the adjacent node.
-    ///    Run-time complexity -> O(V) linear time
-    ///    Space complexity -> O(V + E)
+    ///    Run-time complexity -> O(v) linear time
+    ///    Space complexity -> O(v + e)
     ///    It consumes less space, but takes linear time to look up since the adjacency is stored as a linked list.
 
 }

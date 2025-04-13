@@ -1,16 +1,17 @@
-package com.mcr.dataStructures.adjacencyMatrix;
+package com.mcr.dataStructures.adjacencyList;
 
 public class Main {
 
-    /// A 2D array to store 0's and 1's to represent edges.
-    /// number of rows and number of columns depends on unique number of nodes/vertices.
+    /// An Array/ArrayList of Linked Lists.
+    /// Each linked list has a unique node at the head.
+    /// All adjacent neighbours to that node are added to that node's linked list.
     ///
-    /// run-time complexity -> O(1) constant time (to check an edge)
-    /// space complexity -> O(v^2) quadratic space
+    /// run-time complexity -> O(v) linear time (to check an edge)
+    /// space complexity -> O(v + e)
 
     public static void main(String[] args) {
+        Graph graph = new Graph();
 
-        Graph graph = new Graph(5);
         graph.addNode(new Node('A'));
         graph.addNode(new Node('B'));
         graph.addNode(new Node('C'));
@@ -27,6 +28,6 @@ public class Main {
 
         graph.print();
 
-        System.out.println(graph.checkEdge(1, 0));
+        System.out.println(graph.checkEdge(1, 2));
     }
 }
