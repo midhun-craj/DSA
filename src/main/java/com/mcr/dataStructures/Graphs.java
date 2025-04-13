@@ -24,7 +24,7 @@ public class Graphs {
     ///    if there is an adjacency between two nodes we will mark "one" in the box where the two nodes meet and if
     ///    there is no adjacency, we will mark it as "zero".
     ///    Run-time complexity -> O(1) constant time
-    ///    Space complexity -> O(V^2) quadratic space
+    ///    Space complexity -> O(v^2) quadratic space
     ///    It's very quick to look up an edge, but consumes more space.
     ///
     /// 2. Adjacency list:
