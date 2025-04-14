@@ -2,6 +2,7 @@ package com.mcr.dataStructures.dfs;
 
 public class Main {
 
+    /// Search algorithm for traversing a tree or graph data structure.
     /// Pick a route, keep going.
     /// If you reach a dead end or already visited node,
     /// backtrack to a previous node with unvisited adjacent neighbours.
