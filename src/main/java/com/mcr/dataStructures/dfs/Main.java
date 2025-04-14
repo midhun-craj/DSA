@@ -1,6 +1,11 @@
 package com.mcr.dataStructures.dfs;
 
 public class Main {
+
+    /// Pick a route, keep going.
+    /// If you reach a dead end or already visited node,
+    /// backtrack to a previous node with unvisited adjacent neighbours.
+
     public static void main(String[] args) {
 
         Graph graph = new Graph(5);
