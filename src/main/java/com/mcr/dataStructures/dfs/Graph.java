@@ -45,7 +45,7 @@ public class Graph {
 
     public void dfsHelper(int src, boolean[] visited) {
         if (visited[src]) {
-            return;
+            return; // base case
         } else {
             visited[src] = true;
             System.out.println(nodes.get(src).data + "\t" + "->" + "\t" + "Visited");
