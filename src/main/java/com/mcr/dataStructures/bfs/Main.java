@@ -2,6 +2,20 @@ package com.mcr.dataStructures.bfs;
 
 public class Main {
 
+    /// A search algorithm for traversing a tree or graph data structure.
+    /// This is done one "level" at a time rather than one "branch" at a time.
+    ///
+    /// Breadth FS -> Traverse a graph level by level.
+    ///               Utilizes a queue.
+    ///               Better if destination is on average close to start.
+    ///               Siblings are visited before children.
+    ///
+    /// Depth FS -> Traverse a graph branch by branch.
+    ///             Utilizes a stack.
+    ///             Better if destination is on average far from the start.
+    ///             Children are visited before siblings.
+    ///             More popular for games/puzzles.
+
     public static void main(String[] args) {
 
         Graph graph = new Graph(5);
