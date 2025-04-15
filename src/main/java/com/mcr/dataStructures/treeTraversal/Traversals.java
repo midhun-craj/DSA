@@ -34,6 +34,7 @@ public class Traversals {
         }
     }
 
+    // Used for traversing the bst in ascending order.
     public void inorder() {
         inorderHelper(root);
     }
@@ -46,6 +47,9 @@ public class Traversals {
         }
     }
 
+    // Used for traversing the bst in each node which it visits first, that is it marks every node which it visits
+    // first before moving to its child nodes.
+    // Used for copying the entire bst
     public void preorder() {
        preOrderHelper(root);
     }
@@ -58,6 +62,7 @@ public class Traversals {
         }
     }
 
+    // Used for traversing each subtree form the bst from each level, starting from the leaf node.
     public void postorder() {
         postOrderHelper(root);
     }
