@@ -79,6 +79,7 @@ public class BinarySearchTree {
         return root;
     }
 
+    // successor is the node with the smallest value which is greater than the current node.
     private int successor(Node root) { // find the least value below the right child of this root node
         root = root.right;
         while(root.left != null) {
@@ -87,6 +88,7 @@ public class BinarySearchTree {
         return root.data;
     }
 
+    // predecessor is the node with the largest value which is smaller than the current node.
     private int predecessor(Node root) { // find the greatest value below the left child of this root node
         root = root.left;
         while(root.right != null) {
